@@ -10,7 +10,7 @@ import jakarta.persistence.*;
 
 @Entity
 @IdClass(BCSId.class)
-@Table(name = "BE_CONTROL_SUPERVIVENCIA")
+@Table(name = "BE_CONTROL_SUPERVIVENCIA", schema = "BE")
 public class BeControlSupervivencia{
 	@Id
 	@Column(name = "COD_EMPRESA" )
